@@ -15,4 +15,4 @@ In this part, the PhoneBook system you designed in Part A is extended. More rela
 
 © Burak Korkmaz, Bilkent University Computer Science
 
-Licenced under the [MIT Licence](LICENCE).
+Licenced under the [MIT Licence](LICENSE).
