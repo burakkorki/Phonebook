@@ -1,14 +1,14 @@
-# Music Album - CS 201, Fall 2018 Homework Assignment 1
+# Phonebook - CS 201, Fall 2018 Homework Assignment 3
  
-Music album collection system to store the song names of the music albums in a particular collection. For each music album, store its artist, its title, its year, and its list of songs. In  implementation, the collection of music albums and the list of songs in each music album is implemented using dynamically allocated arrays. The assignment has two parts whose requirements are explained below.
+A phonebook has a list of people. Each person has a name and a list of phone numbers. In implementation, linked lists are used. This assignment have two parts, whose requirements are explained below.
  
 ## Part A
 
-It stores the artists, titles, and years of music albums in a collection without their list of songs. The music albums will be stored in a dynamically allocated array of MusicAlbum objects. 
+This part is a simplified version of the entire system, where the user just creates the phonebook and enters the people only. So the system does not contain any phone numbers. In this system, the people are kept in a linked list of the Person objects.  Person class is quite simple for Part A, but it will have to extended for Part B.
 
 ## Part B
 
-Now, Part A is to be extended such that each music album has a list of songs. The full functionality of this extended MAC system is to be provided. In order for this to be done, the MusicAlbum class needs to be extended such that it additionally keeps the list of songs contained. The song list of a music album must be kept in a dynamically allocated array of Song objects. Note that the number of songs can be different from one music album to another, but is normally fixed for a particular music album.
+In this part, the PhoneBook system you designed in Part A is extended. More related information about the assignment can be found [here](fall18_cs201_hw3.pdf)
 
 
 ## Copyright and Licence
